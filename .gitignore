@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!model_early_stopping.ipynb
+!baseline.ipynb
+!Data/Training/processing_training.ipynb
+!Data/Testing/processing_testing.ipynb
+!Data/Testing/eda_disagreement.ipynb
+
+# PyTorch model weights (large binary files)
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
